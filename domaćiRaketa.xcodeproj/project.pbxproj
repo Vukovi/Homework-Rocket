@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE998141CE8D9D600C934EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE998131CE8D9D600C934EA /* AppDelegate.swift */; };
+		BFE998161CE8D9D600C934EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE998151CE8D9D600C934EA /* ViewController.swift */; };
+		BFE998191CE8D9D600C934EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE998171CE8D9D600C934EA /* Main.storyboard */; };
+		BFE9981B1CE8D9D600C934EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE9981A1CE8D9D600C934EA /* Assets.xcassets */; };
+		BFE9981E1CE8D9D600C934EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE9981C1CE8D9D600C934EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFE998101CE8D9D600C934EA /* domaćiRaketa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "domaćiRaketa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE998131CE8D9D600C934EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE998151CE8D9D600C934EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFE998181CE8D9D600C934EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE9981A1CE8D9D600C934EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE9981D1CE8D9D600C934EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE9981F1CE8D9D600C934EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE9980D1CE8D9D600C934EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE998071CE8D9D600C934EA = {
+			isa = PBXGroup;
+			children = (
+				BFE998121CE8D9D600C934EA /* domaćiRaketa */,
+				BFE998111CE8D9D600C934EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE998111CE8D9D600C934EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE998101CE8D9D600C934EA /* domaćiRaketa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE998121CE8D9D600C934EA /* domaćiRaketa */ = {
+			isa = PBXGroup;
+			children = (
+				BFE998131CE8D9D600C934EA /* AppDelegate.swift */,
+				BFE998151CE8D9D600C934EA /* ViewController.swift */,
+				BFE998171CE8D9D600C934EA /* Main.storyboard */,
+				BFE9981A1CE8D9D600C934EA /* Assets.xcassets */,
+				BFE9981C1CE8D9D600C934EA /* LaunchScreen.storyboard */,
+				BFE9981F1CE8D9D600C934EA /* Info.plist */,
+			);
+			path = "domaćiRaketa";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE9980F1CE8D9D600C934EA /* domaćiRaketa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE998221CE8D9D600C934EA /* Build configuration list for PBXNativeTarget "domaćiRaketa" */;
+			buildPhases = (
+				BFE9980C1CE8D9D600C934EA /* Sources */,
+				BFE9980D1CE8D9D600C934EA /* Frameworks */,
+				BFE9980E1CE8D9D600C934EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "domaćiRaketa";
+			productName = "domaćiRaketa";
+			productReference = BFE998101CE8D9D600C934EA /* domaćiRaketa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE998081CE8D9D600C934EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					BFE9980F1CE8D9D600C934EA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BFE9980B1CE8D9D600C934EA /* Build configuration list for PBXProject "domaćiRaketa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE998071CE8D9D600C934EA;
+			productRefGroup = BFE998111CE8D9D600C934EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE9980F1CE8D9D600C934EA /* domaćiRaketa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE9980E1CE8D9D600C934EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE9981E1CE8D9D600C934EA /* LaunchScreen.storyboard in Resources */,
+				BFE9981B1CE8D9D600C934EA /* Assets.xcassets in Resources */,
+				BFE998191CE8D9D600C934EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE9980C1CE8D9D600C934EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE998161CE8D9D600C934EA /* ViewController.swift in Sources */,
+				BFE998141CE8D9D600C934EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFE998171CE8D9D600C934EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE998181CE8D9D600C934EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE9981C1CE8D9D600C934EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE9981D1CE8D9D600C934EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE998201CE8D9D600C934EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE998211CE8D9D600C934EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE998231CE8D9D600C934EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "domaćiRaketa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.domac-iRaketa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFE998241CE8D9D600C934EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "domaćiRaketa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.domac-iRaketa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE9980B1CE8D9D600C934EA /* Build configuration list for PBXProject "domaćiRaketa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE998201CE8D9D600C934EA /* Debug */,
+				BFE998211CE8D9D600C934EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE998221CE8D9D600C934EA /* Build configuration list for PBXNativeTarget "domaćiRaketa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE998231CE8D9D600C934EA /* Debug */,
+				BFE998241CE8D9D600C934EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE998081CE8D9D600C934EA /* Project object */;
+}
