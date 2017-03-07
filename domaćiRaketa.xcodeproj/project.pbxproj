@@ -12,6 +12,9 @@
 		BFE998191CE8D9D600C934EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE998171CE8D9D600C934EA /* Main.storyboard */; };
 		BFE9981B1CE8D9D600C934EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE9981A1CE8D9D600C934EA /* Assets.xcassets */; };
 		BFE9981E1CE8D9D600C934EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE9981C1CE8D9D600C934EA /* LaunchScreen.storyboard */; };
+		BFE998261CE8DBBB00C934EA /* boom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFE998251CE8DBBB00C934EA /* boom.jpg */; };
+		BFE998281CE8DBC900C934EA /* raketa.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE998271CE8DBC900C934EA /* raketa.png */; };
+		BFE9982A1CE8DBD900C934EA /* leteci tanjir.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE998291CE8DBD900C934EA /* leteci tanjir.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BFE9981A1CE8D9D600C934EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE9981D1CE8D9D600C934EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFE9981F1CE8D9D600C934EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE998251CE8DBBB00C934EA /* boom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boom.jpg; sourceTree = "<group>"; };
+		BFE998271CE8DBC900C934EA /* raketa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raketa.png; sourceTree = "<group>"; };
+		BFE998291CE8DBD900C934EA /* leteci tanjir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leteci tanjir.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				BFE998171CE8D9D600C934EA /* Main.storyboard */,
 				BFE9981A1CE8D9D600C934EA /* Assets.xcassets */,
 				BFE9981C1CE8D9D600C934EA /* LaunchScreen.storyboard */,
+				BFE998251CE8DBBB00C934EA /* boom.jpg */,
+				BFE998271CE8DBC900C934EA /* raketa.png */,
+				BFE998291CE8DBD900C934EA /* leteci tanjir.png */,
 				BFE9981F1CE8D9D600C934EA /* Info.plist */,
 			);
 			path = "domaćiRaketa";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					BFE9980F1CE8D9D600C934EA = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -122,6 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE998281CE8DBC900C934EA /* raketa.png in Resources */,
+				BFE998261CE8DBBB00C934EA /* boom.jpg in Resources */,
+				BFE9982A1CE8DBD900C934EA /* leteci tanjir.png in Resources */,
 				BFE9981E1CE8D9D600C934EA /* LaunchScreen.storyboard in Resources */,
 				BFE9981B1CE8D9D600C934EA /* Assets.xcassets in Resources */,
 				BFE998191CE8D9D600C934EA /* Main.storyboard in Resources */,
@@ -255,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.domac-iRaketa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +280,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.domac-iRaketa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +303,7 @@
 				BFE998241CE8D9D600C934EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
